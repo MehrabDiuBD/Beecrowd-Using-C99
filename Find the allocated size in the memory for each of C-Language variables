@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+  float Float;
+  double Double;
+  int Int;
+  char Char;
+  long int LongInt;
+  long double LongDouble;
+
+
+  printf("%zu\n", sizeof(Float));
+  printf("%zu\n", sizeof(Double));
+  printf("%zu\n", sizeof(Int));
+  printf("%zu\n", sizeof(Char));
+  printf("%zu\n", sizeof(LongInt));
+  printf("%zu\n", sizeof(LongDouble));
+
+
+  return 0;
+}
