@@ -1,0 +1,54 @@
+#include<stdio.h>
+int main ()
+{
+//A
+    for(int x =1; x<8 ; x++) { printf(" "); }
+    printf("A\n");
+//B
+    for(int x =1; x<7 ; x++) { printf(" "); }
+    printf("B");
+    
+    for(int x =1; x<2 ; x++) { printf(" "); }
+    printf("B\n");
+//C 
+    for(int x =1; x<6 ; x++) { printf(" "); }
+    printf("C");
+    
+    for(int x =1; x<4 ; x++) { printf(" "); }
+    printf("C\n");
+//D 
+    for(int x =1; x<5 ; x++) { printf(" "); }
+    printf("D");
+    
+    for(int x =1; x<6 ; x++) { printf(" "); }
+    printf("D\n");
+//E 
+    for(int x =1; x<4 ; x++) { printf(" "); }
+    printf("E");
+    
+    for(int x =1; x<8 ; x++) { printf(" "); }
+    printf("E\n");
+//D 
+    for(int x =1; x<5 ; x++) { printf(" "); }
+    printf("D");
+    
+    for(int x =1; x<6 ; x++) { printf(" "); }
+    printf("D\n");
+//C
+    for(int x =1; x<6 ; x++) { printf(" "); }
+    printf("C");
+    
+    for(int x =1; x<4 ; x++) { printf(" "); }
+    printf("C\n");
+//B 
+    for(int x =1; x<7 ; x++) { printf(" "); }
+    printf("B");
+    
+    for(int x =1; x<2 ; x++) { printf(" "); }
+    printf("B\n");
+//A 
+    for(int x =1; x<8 ; x++) { printf(" "); }
+    printf("A\n");
+    
+    return 0;   
+}
