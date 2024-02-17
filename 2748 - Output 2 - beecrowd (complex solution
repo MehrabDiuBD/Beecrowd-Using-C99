@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main ()
+{
+    int x1 = 1;
+    while(x1<2) {for( int a = 1 ; a < 40 ; a++) { printf("-"); } printf("\n"); break;}
+
+    int y = 1;
+    while (y < 2) { printf("|"); for( int b = 1; b<9; b++) {printf(" ");}
+    printf("Roberto"); for(int c = 1; c <23 ; c++) { printf(" ");} printf("|\n"); break;}
+
+    int x2 = 1;
+    while (x2<2) { printf("|"); for( int a = 1 ; a < 38 ; a++) { printf(" "); }
+    printf("|\n"); break;}
+
+    int x = 1;
+    while (x < 2) { printf("|"); for( int b = 1; b<9; b++) {printf(" ");}
+    printf("5786"); for(int c = 1; c <26 ; c++) { printf(" ");} printf("|\n"); break;}
+
+    int x3 = 1;
+    while (x3 < 2) { printf("|"); for( int a = 1 ; a < 38 ; a++) { printf(" "); }
+    printf("|\n"); break;}
+
+    int z = 1;
+    while (z < 2) { printf("|"); for( int b = 1; b<9; b++) {printf(" ");}
+    printf("UNIFEI"); for(int c = 1; c <24 ; c++) { printf(" ");} printf("|\n"); break;}
+
+    int x4 = 1;
+    while(x4<2) {for( int a = 1 ; a < 40 ; a++) { printf("-"); } printf("\n"); break;};
+
+    return 0;
+}
