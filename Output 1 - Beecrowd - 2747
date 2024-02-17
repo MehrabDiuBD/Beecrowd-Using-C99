@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main ()
+{
+    for( int a = 1; a<40 ; a++) { printf("-"); }
+    printf("\n");
+    
+    for( int a = 1; a<6; a++ ) { printf("|"); 
+        for (int b = 1; b<38; b++) { printf(" ");} printf("|\n"); }
+        
+    for( int a = 1; a<40 ; a++) { printf("-"); }
+    printf("\n");
+    
+    return 0;
+}
