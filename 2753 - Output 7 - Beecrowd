@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main ()
+{  
+      for ( char ch0 = 'a'; ch0<= 'z'; ch0++) {  printf("%d e %c\n", ch0, ch0); }
+    
+    return 0;
+
+}
