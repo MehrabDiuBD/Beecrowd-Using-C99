@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main ()
+{
+    int i;
+    for(i = 1;i<=39; i++) {printf("-");} printf("\n");
+    
+    for(i = 1; i<=34; i++) 
+        if( i==1 ||i==34) printf("|");
+        else if ( i==2) printf("x = 35");
+        else printf(" "); 
+        printf("\n");
+
+    for(i = 1; i<=39; i++) 
+        if( i==1 ||i==39) printf("|");
+        else printf(" "); 
+        printf("\n");
+        
+    for(i = 1; i<=34; i++) 
+        if( i==1 ||i==34) printf("|");
+        else if ( i==17) printf("x = 35");
+        else printf(" "); 
+        printf("\n");
+        
+    for(i = 1; i<=39; i++) 
+        if( i==1 ||i==39) printf("|");
+        else printf(" "); 
+        printf("\n");
+        
+    for(i = 1; i<=34; i++) 
+        if( i==1 ||i==34) printf("|");
+        else if ( i==33) printf("x = 35");
+        else printf(" "); 
+        printf("\n");
+        
+    for(i = 1;i<=39; i++) {printf("-");} printf("\n");
+        
+    return 0;
+}
