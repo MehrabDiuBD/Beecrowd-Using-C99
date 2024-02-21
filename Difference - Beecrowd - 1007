@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main ()
+{
+    int A, B, C, D, X, Y, Z;
+    scanf("%d %d %d %d", &A, &B, &C, &D);
+    X = A*B;
+    Y = C*D;
+    Z = X - Y;
+    printf("DIFERENCA = %d\n", Z);
+    return 0;
+}
