@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main() {
+
+    int your_money, tk100, tk50, tk20, tk10, tk5, tk2, tk1;
+    int  y_m_1,  y_m_2, y_m_3,  y_m_4, y_m_5,  y_m_6;
+    scanf("%d", &your_money);
+
+    tk100 = your_money/100;
+    y_m_1 = your_money%100;
+
+    tk50 =  y_m_1 /50;
+    y_m_2 =  y_m_1%50;
+
+    tk20 =  y_m_2 /20;
+    y_m_3 =  y_m_2%20;
+
+    tk10 =  y_m_3 /10;
+    y_m_4 =  y_m_3%10;
+
+    tk5 =  y_m_4 /5;
+    y_m_5 =  y_m_4%5;
+
+    tk2 =  y_m_5 /2;
+    y_m_6 =  y_m_5%2;
+
+    tk1 =  y_m_6 /1;
+    
+    printf("%d\n", your_money );
+    printf("%d nota(s) de R$ 100,00\n", tk100);
+    printf("%d nota(s) de R$ 50,00\n", tk50);
+    printf("%d nota(s) de R$ 20,00\n", tk20);
+    printf("%d nota(s) de R$ 10,00\n", tk10);
+    printf("%d nota(s) de R$ 5,00\n", tk5);
+    printf("%d nota(s) de R$ 2,00\n", tk2);
+    printf("%d nota(s) de R$ 1,00\n", tk1);
+
+    return 0;
+}
