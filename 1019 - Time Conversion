@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int N, hrs, mins, sec, re_sec_1;
+    scanf("%d", &N);
+    
+    hrs = N/3600;
+    re_sec_1 = N%3600;
+    
+    mins = re_sec_1/60;
+    sec = re_sec_1%60;
+    
+    printf("%d:d%:%d\n", hrs, mins, sec);
+    
+    return 0;
+}
