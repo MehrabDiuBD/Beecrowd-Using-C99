@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+    int N1;
+    scanf("%d", &N1);
+
+    if(N1==61) {printf("Brasilia\n");}
+    else if(N1==71) {printf("Salvador\n");}
+    else if(N1==11) {printf("Sao Paulo\n");}
+    else if(N1==21) {printf("Rio de Janeiro\n");}
+    else if(N1==32) {printf("Juiz de Fora\n");}
+    else if(N1==19) {printf("Campinas\n");}
+    else if(N1==27) {printf("Vitoria\n");}
+    else if(N1==31) {printf("Belo Horizonte\n");}
+    else {printf("DDD nao cadastrado\n");}
+
+    return 0;
+}
