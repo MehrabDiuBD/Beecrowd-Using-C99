@@ -1,0 +1,23 @@
+//problem link : https://judge.beecrowd.com/en/problems/view/1047
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    int hi, mi, hf, mf, h=24, m=0;
+    scanf("%d %d %d %d", &hi, &mi, &hf, &mf);
+    
+    if(hf<=hi && mf<=mi) h= hf-hi+24;
+    else  h=hf-hi;
+    
+    
+    if(mf>=mi) m= mf-mi; //7-2 //2-9
+    else {
+        m=mf-mi+60; 
+        h--;
+    }
+    
+    printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", h, m);
+    
+    return 0;
+}
